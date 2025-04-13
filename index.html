@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> CodesFLY </title>
+        <link rel="icon" href="assets/mini-logo.png" class="CodesFLY">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/script.js" defer></script>
+        <script src="js/carrusel.js" defer></script>
+    </head>
+
+    <body>
+        <header class="cabecera">
+            
+            <a href="index.html" class="cabezera_logo">
+                <img class="logo_codesfly" src="assets/logo.png" alt="logo_codesfly">
+            </a>
+            <nav class="contenedor_1">
+
+                <ul class="cabecera_menu">
+    
+                    <li>
+                        <a class="apartado_menu" href="#">Inicio</a>
+                    </li>
+    
+                    <li>
+                        <a class="apartado_menu" href="index2.html">Servicios</a>
+                    </li>
+    
+                    <li>
+                        <a class="apartado_menu" href="index3.html">Sobre nosotros</a>
+                    </li>
+    
+                    <li>
+                        <a class="apartado_menu" href="index4.html">Contacto</a>
+                    </li>  
+    
+                </ul>
+            </nav>
+            
+            <article class="cabecera_interacciones">
+                <button onclick="window.location.href='iniciosesion-index.html';" class="cabecera_boton">
+                    <p class="texto_iniciar_sesion">INICIAR SESIÓN</p>
+                    <img class="icono_inicio_sesion" src="assets/icono-sesion.png" alt="iniciar_sesión">
+                </button>
+                <a href="">
+                    <img class="icono_carrito" src="assets/carrito.png" alt="">
+                </a>
+                <nav class="cabecera_menu_hamburguesa">
+                    <input class="hamburguesa_input" type="checkbox" id="menu">
+                    <label class="hamburguesa_label" for="menu">𓃑</label>
+                    <ul class="hamburguesa_ul">
+                        <li class="hamburguesa_apartados">
+                            <a class="hamburguesa_opcion" href="#">Inicio</a>
+                        </li>
+                        <li class="hamburguesa_apartados">
+                            <a class="hamburguesa_opcion" href="index2.html">Sobre nosotros</a>
+                        </li>
+                        <li class="hamburguesa_apartados">
+                            <a class="hamburguesa_opcion" href="index3.html">Sobre nosotros</a>
+                        </li>
+                        <li class="hamburguesa_apartados">
+                            <a class="hamburguesa_opcion" href="index4.html">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </article>
+            
+
+            
+        </header>
+        <main>
+            <section class="carrusel">
+                <button class="carrusel__boton carrusel__boton--izquierda">⟵</button>
+            
+                <article class="carrusel__imagenes">
+                    <img src="assets/carrusel1.png" class="carrusel__imagen activa" alt="Imagen 1">
+                    <img src="assets/carrusel2.png" class="carrusel__imagen" alt="Imagen 2">
+                    <img src="assets/carrusel3.png" class="carrusel__imagen" alt="Imagen 3">
+                </article>
+            
+                <button class="carrusel__boton carrusel__boton--derecha">⟶</button>
+            </section>
+            
+            <section class="seccion_enlace_inicio">
+                <article class="articulo_inicial">
+                    <h1 id="titulo">BIENVENIDOS</h1>
+                    <p class="parrafo_tus_servicios_articulo_inicial">¡¡Tus servicios informáticos al alcance de tus manos!!</p>                    
+                    <a href="#servicios_informaticos">
+                        <img class="icono_scroll" src="assets/flechas-scroll.png" alt="">
+                    </a>                
+                </article>
+            </section>
+            <section id="servicios_informaticos" class="servicios_informaticos">                
+                <img class="img_servicios_informaticos" src="assets/servicios-informáticos.png" alt="imagen_servicios_informáticos">
+                <article class="informacion_servicios_informaticos">
+                    <h2>¿Cansado de gastar tanto??</h2>
+                    <p>
+                        Esto se acabó, CodeFLY está pensado para que puedas dquirir los mejores servicios al mejor precio sin necesidad de complicarte la vida!!
+                    </p>
+                    <button onclick="window.location.href='index3.html';"  class="boton_servicios_informaticos">
+                        VER MÁS
+                    </button>
+                </article>
+            </section>
+            <section class="ir_a_productos">                
+                <article class="informacion_ir_a_productos">
+                    <h2>PRODUCTOS</h2>
+                    <p id="texto">
+                        Disponemos de una gran variedad de productos, desde scrips, mapeados, y vehiculos para FiveM a servicios de stream con la subscripción PRIME para toda la vida!!
+
+                    </p>
+                    <p>
+                        ¿A qué esperas?
+                    </p>
+                    <button id="mostrarMas">Mostrar menos</button> <!-- El botón debe estar aquí --> 
+                    <button onclick="window.location.href='index2.html';" class="boton_servicios_informaticos">
+                        VER MÁS
+                    </button>
+                </article>
+                <img class="img_ir_a_productos" src="assets/ir_a_productos.png" alt="imagen_ir_a_productos">
+            </section>
+        </main>
+        <footer>
+            <section class="section_footer">
+                <a href="index.html" class="footer_logo">
+                    <img class="footer_logo" src="assets/logo.png" alt="logo_codesfly">
+                </a>
+                <nav class="menu_footer">
+                    <ul class="ul_menu_footer">
+                        <li class="li_menu_footer">
+                            <a class="politicas_footer" href="">Aviso Legal</a>
+                        </li>
+                        |
+                        <li class="li_menu_footer">
+                            <a class="politicas_footer" href="">Política de Privacidad</a>
+                        </li>
+                        |
+                        <li class="li_menu_footer">
+                            <a class="politicas_footer" href="">Política de Cookies</a>
+                        </li>
+                    </ul>
+                </nav>
+                <article class="derechos_footer">
+                    <p>© 2025 CodesFLY</p>
+                    <p>Desarrollado por CodeSHOP</p>
+                </article>
+            </section>
+        </footer>
+       
+    </body>
+</html>
